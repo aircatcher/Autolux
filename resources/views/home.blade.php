@@ -13,7 +13,7 @@
 	</head>
 	
   <body style="overflow:hidden">
-		<nav class="navbar navbar-left fixed-top fixed-left navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-left fixed-top fixed-left navbar-expand-lg navbar-dark bg-dark">
 			<a class="navbar-brand navbar-brand-left" href="#">
 				<img src="{{ asset('img/logo.png') }}" class="d-inline-block align-top" alt=""></img></a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,15 +41,7 @@
 				</form>
 			</div>
 		</nav>
-		<nav class="navbar navbar-top navbar-expand-lg navbar-dark bg-dark">
-			<div class="collapse collapse-right mr-auto" id="navbarSupportedContent">
-				<ul class="navbar-nav mr-auto">
-					<li class="nav-item">
-						<a class="nav-link" href="#">Help</a>
-					</li>
-				</ul>
-			</div>
-		</nav>
+		<?php include (app_path().'/Includes/nav_top.blade.php'); ?>
 
     <div id="demo" class="carousel slide" data-ride="carousel">
       <!-- Indicators -->
