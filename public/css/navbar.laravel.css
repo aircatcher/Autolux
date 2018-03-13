@@ -1,0 +1,73 @@
+/**
+ * LARAVEL NAVBAR
+ **/
+body
+{
+  background: #636E79 !important
+}
+.navbar-laravel { background: #343A40 !important }
+.card
+{
+  display: -webkit-box !important;
+  -webkit-box-orient: unset !important;
+  border-radius: 0 !important;
+  background-color: #969FA8 !important;
+}
+.card-header { background: #969FA8 }
+.card-body { background: #DDE0E3 }
+.card:hover
+{
+  margin-left: -5px;
+  min-width: 102%;
+  width: 102%;
+}
+.card, .card-header, .card-body
+{
+  transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+}
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus
+{
+  border-color: rgba(52, 58, 64, 0.8) !important;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(52, 58, 64, 1) !important;
+  outline: 0 none !important;
+}
+.btn-link
+{
+  color: #636E79 !important;
+  text-decoration: none !important
+}
+.btn-link:hover
+{
+  margin-left: -1px;
+  font-weight: bold
+}
+.btn-primary
+{
+  background-color: #343A40 !important;
+  border-color: #1C1F22 !important
+}
+.btn-primary:focus
+{
+  border-color: rgba(52, 58, 64, 0.8) !important;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(52, 58, 64, 1) !important;
+  outline: 0 none !important
+}
