@@ -10,8 +10,9 @@ Our system is fully based on Laravel (Front-End) with MySQL (Back-End) for datab
 
 Where is the folder ```vendor```?
 1. Run ```composer update```
-2. Rename the file ```env.example``` in the root folder
-3. run ```php artisan key:generate```
-4. Done! now run ```php artisan serve```
+2. Copy and paste the file ```env.example``` in the root folder
+3. Rename the copied ```env.example``` into ```.env.```
+4. Run ```php artisan key:generate```
+5. Done! now run ```php artisan serve```
 
 This directory is in ```.gitignore``` by default. If you have trouble with the new version of some package, just change it back in ```composer.json``` and run ```composer update``` again.
