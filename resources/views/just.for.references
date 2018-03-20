@@ -1,0 +1,26 @@
+## Canvas with Menus ##
+
+<div class="flex-center position-ref full-height">
+      @if (Route::has('login'))
+      
+      @endif
+				
+			<div id="canvas-container"></div>
+			<div id="canvas-links">
+				<div class="cl-row-1">
+					<a href="#">New Canvas</a><br/>
+					<a href="#">Load Canvas</a>
+				</div>
+				<div class="cl-row-2">
+					<a href="#">Edit This Canvas</a><br/>
+					<a href="#">Save This Canvas</a><br/>
+					<a href="#">Delete This Canvas</a>					
+				</div>
+				<div class="cl-row-3">
+				<a href="#">Add a Component</a>					
+				</div>
+				
+			</div>
+    </div>
+
+## ##

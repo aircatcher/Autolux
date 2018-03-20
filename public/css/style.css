@@ -1,6 +1,6 @@
-body { padding-left: 19.58% }
 html, body
 {
+  padding-left: 10.58%;
 	background-color: #636E79;
 	color: #fff;
 	font-family: 'Raleway', sans-serif;
@@ -174,20 +174,53 @@ div.carousel-inner > div.carousel-item > img
 	width: 594px !important;
 	height: 594px !important;
 }
-#canvas-links
+#trs-links
 {
 	width: 150px;
 	margin: 0 0 0 50px
 }
-#canvas-links > div > a
+#trs-links > div > a
 {
 	color: #DEDEDE;
+	text-decoration: none;
+}
+#trs-links > div > a,
+#trs-edit, #trs-delete
+{
+	transition: all 0.15s ease;
+	-o-transition: all 0.15s ease;
+	-moz-transition: all 0.15s ease;
+	-webkit-transition: all 0.15s ease
+}
+#trs-edit > a, #trs-delete > a
+{
+	width:100%;display:block;
+	color: white;
 	text-decoration: none
 }
-#canvas-links > div > a:hover
+#trs-edit:hover { background-color: rgb(224, 173, 114) }
+#trs-delete:hover { background-color: rgb(228, 81, 81) }
+#trs-links > div > a:hover
 {
 	font-weight: bold;
 	color: #FFF;
 	text-decoration: none;
 }
+.col-sm-2 > #trs-links > .cl-row-2 > a:hover {color:red}
 .cl-row-1, .cl-row-2, .cl-row-3 { padding: 10px 0 }
+
+/**
+ * PAGE HEADER
+ **/
+.page-header {	margin-top: 100px }
+.page-contents {	margin-top: 35px }
+
+table
+{
+	border-color: #343A40;
+	border-top-color: transparent;
+	border-left-color: transparent;
+	border-right-color: transparent
+}
+th { background-color: #C45341 }
+th, td { padding: 17px }
