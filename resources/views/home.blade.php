@@ -26,7 +26,7 @@
 						<a class="nav-link">Home <span class="sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="/create">Create</a>
+						<a class="nav-link" href="/transactions">Transactions</a>
           </li>
           <li class="nav-item">
 						<a class="nav-link" href="#">About</a>
